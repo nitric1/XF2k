@@ -1,0 +1,14 @@
+XF2k
+
+XF2k plugin fetches music information from foobar2000 and says it in X-Chat.
+
+Installation
+
+1. Install foo_XF2kProvider.fb2k-component by foobar2000/Library/Configure/Components/Install.
+2. Copy XF2k.dll into plugins directory under your X-Chat installation path.
+3. Restart X-Chat or load XF2k.dll by X-Chat/XChat/Load Plugin or Script.
+
+Usage
+
+/HELP XF: Usage: XF | ㅌㄹ, says the current song information.
+/HELP XFCFG: Usage: XFCFG <name> [<value> | default], sets a XF2k option. <name> can be: FORMAT, WAITDELAY, METHOD. If <value> is empty, shows the current value. If <value> is "default", restores default value. FORMAT option can be any foobar2000 format string. WAITDELAY option must be a positive integer, and its unit must be milliseconds. METHOD must be: SAY, ME, ALLCHAN SAY, ALLCHAN ME, ALLCHANL SAY, or ALLCHANL ME.
