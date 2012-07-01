@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{e0eb5c94-213d-41f3-b7e6-dbc83efe66ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XF2kProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\base64.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\bsearch.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\guid.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\other.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\pathUtils.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\printf.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\profiler.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\selftest.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\sort.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\string.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\string_conv.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\stringNew.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\threads.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\pfc\utf8.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\abort_callback.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\advconfig.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\album_art.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\app_close_blocker.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\audio_chunk.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\audio_chunk_channel_config.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\cfg_var.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\chapterizer.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\commandline.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\completion_notify.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\config_object.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\console.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\dsp.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\dsp_manager.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\file_info.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\file_info_impl.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\file_info_merge.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\file_operation_callback.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\filesystem.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\filesystem_helper.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\guids.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\hasher_md5.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\input.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\input_file_type.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\link_resolver.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\mainmenu.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\mem_block_container.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\menu_helpers.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\menu_item.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\menu_manager.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\metadb.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\metadb_handle.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\metadb_handle_list.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\packet_decoder.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\playable_location.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\playback_control.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\playlist.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\playlist_loader.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\popup_message.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\preferences_page.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\replaygain.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\replaygain_info.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\service.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\tag_processor.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\tag_processor_id3v2.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\threaded_process.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\titleformat.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\ui.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\SDK\ui_element.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\foobar2000sdk\foobar2000\foobar2000_component_client\component_client.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XF2kProvider.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\alloc.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\array.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\avltree.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\base64.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\binary_search.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\bit_array.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\bit_array_impl.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\bit_array_impl_part2.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\bsearch.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\bsearch_inline.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\byte_order_helper.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\chain_list_v2.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\com_ptr_t.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\guid.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\instance_tracker.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\int_types.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\iterators.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\list.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\map.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\mem_block_mgr.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\order_helper.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\other.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\pathUtils.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\pfc.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\primitives.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\profiler.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\ptr_list.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\rcptr.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\ref_counter.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\sort.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\string.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\string_conv.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\string_list.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\string8_impl.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\stringNew.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\threads.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\pfc\traits.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\shared\audio_math.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\shared\filedialogs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\shared\shared.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\shared\win32_misc.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\abort_callback.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\advconfig.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\album_art.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\app_close_blocker.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\audio_chunk.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\audio_postprocessor.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\autoplaylist.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\cfg_var.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\chapterizer.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\commandline.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\completion_notify.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\component.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\component_client.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\components_menu.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\componentversion.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\config_io_callback.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\config_object.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\config_object_impl.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\console.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\contextmenu.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\contextmenu_manager.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\core_api.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\coreversion.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\decode_postprocessor.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\dsp.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\dsp_manager.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\event_logger.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\exceptions.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\file_info.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\file_info_impl.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\file_operation_callback.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\filesystem.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\filesystem_helper.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\foobar2000.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\genrand.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\hasher_md5.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\http_client.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\icon_remap.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\info_lookup_handler.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\initquit.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\input.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\input_file_type.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\input_impl.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\library_manager.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\link_resolver.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\main_thread_callback.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\mem_block_container.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\menu.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\menu_helpers.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\message_loop.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\metadb.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\metadb_handle.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\modeless_dialog.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\ole_interaction.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\packet_decoder.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\play_callback.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\playable_location.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\playback_control.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\playback_stream_capture.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\playlist.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\playlist_loader.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\popup_message.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\preferences_page.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\progress_meter.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\replaygain.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\replaygain_scanner.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\resampler.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\search_tools.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\service.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\service_impl.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\shortcut_actions.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\system_time_keeper.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\tag_processor.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\threaded_process.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\titleformat.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\track_property.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\ui.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\ui_edit_context.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\ui_element.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\unpack.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\foobar2000sdk\foobar2000\SDK\vis.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XF2kProvider.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
