@@ -23,7 +23,7 @@ const wchar_t *className = L"XF2k Message Receiver Window Class";
 const wchar_t *windowName = L"XF2k Message Receiver Window";
 
 char pluginName[] = "XF2k";
-char pluginVersion[] = "1.1.0";
+char pluginVersion[] = "1.2.0";
 char pluginDescription[] = "Fetches music information from foobar2000.";
 
 const char *usageXF = "Usage: XF | \xE3\x85\x8C\xE3\x84\xB9, says the current song information.";
@@ -241,6 +241,11 @@ void xchat_plugin_get_info(char **name, char **desc, char **version, void **rese
 	*version = pluginVersion;
 }
 
+void hexchat_plugin_get_info(char **name, char **desc, char **version, void **reserved)
+{
+	xchat_plugin_get_info(name, desc, version, reserved);
+}
+
 int xchat_plugin_init(xchat_plugin *pluginHandle, char **name, char **desc, char **version, char *arg)
 {
 	ph = pluginHandle;
@@ -257,9 +262,19 @@ int xchat_plugin_init(xchat_plugin *pluginHandle, char **name, char **desc, char
 	return 1;
 }
 
+int hexchat_plugin_init(xchat_plugin *pluginHandle, char **name, char **desc, char **version, char *arg)
+{
+	return xchat_plugin_init(pluginHandle, name, desc, version, arg);
+}
+
 int xchat_plugin_deinit()
 {
 	return 1;
+}
+
+int hexchat_plugin_deinit()
+{
+	return xchat_plugin_deinit();
 }
 
 int xf2kGetInfo(char *word[], char *eol[], void *userdata)

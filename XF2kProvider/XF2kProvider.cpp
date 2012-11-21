@@ -16,7 +16,7 @@ using namespace std;
 #include "foobar2000/sdk/foobar2000.h"
 #include "foobar2000/helpers/helpers.h"
 
-DECLARE_COMPONENT_VERSION("XF2kProvider", "1.1.0", "Music Information Provider for XF2k\nby HNO3 <wdlee91 at gmail dot com>");
+DECLARE_COMPONENT_VERSION("XF2kProvider", "1.2.0", "Music Information Provider for XF2k\nby HNO3 <wdlee91 at gmail dot com>");
 
 class XF2kProviderInitquit : public initquit
 {
