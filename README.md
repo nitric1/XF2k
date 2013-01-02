@@ -16,3 +16,7 @@ Type in X-Chat:
 
 * /HELP XF
 * /HELP XFCFG
+
+## Downloads
+
+All download links are in [XF2k GitHub wiki home page](https://github.com/HNO3/XF2k/wiki).
